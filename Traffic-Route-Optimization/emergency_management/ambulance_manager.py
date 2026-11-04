@@ -1,0 +1,1 @@
+"""Manage ambulance fleet state."""

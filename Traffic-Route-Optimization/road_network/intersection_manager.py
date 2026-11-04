@@ -1,0 +1,1 @@
+"""Manage road network intersections."""

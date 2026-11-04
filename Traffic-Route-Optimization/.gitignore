@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Testing and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Generated model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Local data and environment configuration
+.env
+datasets/traffic/raw/*
+!datasets/traffic/raw/.gitkeep
+datasets/traffic/processed/*
+!datasets/traffic/processed/.gitkeep
+datasets/traffic/external/*
+!datasets/traffic/external/.gitkeep
+datasets/cvrp/benchmark_instances/*
+!datasets/cvrp/benchmark_instances/.gitkeep
+datasets/solomon/vrptw_instances/*
+!datasets/solomon/vrptw_instances/.gitkeep
+datasets/road_network/road_data/*
+!datasets/road_network/road_data/.gitkeep
+datasets/road_network/intersection_data/*
+!datasets/road_network/intersection_data/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

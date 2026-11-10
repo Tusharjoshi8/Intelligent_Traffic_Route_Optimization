@@ -1,1 +1,13 @@
 # Add project dependencies as implementation modules are introduced.
+#pandas
+#numpy
+#matplotlib
+#seaborn
+#scikit-learn
+#xgboost
+#networkx
+#streamlit
+#plotly
+#folium
+#pytest
+#jupyter

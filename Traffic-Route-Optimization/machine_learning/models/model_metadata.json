@@ -1,1 +1,36 @@
-{}
+{
+    "model_name": "XGBoost Regressor",
+    "target": "traffic_volume",
+    "features": [
+        "temp",
+        "rain_1h",
+        "snow_1h",
+        "clouds_all",
+        "hour",
+        "day_of_week",
+        "day",
+        "month",
+        "is_weekend",
+        "is_peak_hour",
+        "hour_sin",
+        "hour_cos",
+        "day_sin",
+        "day_cos",
+        "is_holiday",
+        "weather_main_Clear",
+        "weather_main_Clouds",
+        "weather_main_Drizzle",
+        "weather_main_Fog",
+        "weather_main_Haze",
+        "weather_main_Mist",
+        "weather_main_Rain",
+        "weather_main_Smoke",
+        "weather_main_Snow",
+        "weather_main_Squall",
+        "weather_main_Thunderstorm"
+    ],
+    "training_records": 38549,
+    "testing_records": 9638,
+    "number_of_features": 26,
+    "training_time_seconds": 3.01
+}

@@ -1,0 +1,11 @@
+{
+    "algorithm": "Particle Swarm Optimization",
+    "optimized_signal_timings": {
+        "North": 24.63,
+        "South": 19.15,
+        "East": 32.85,
+        "West": 27.37
+    },
+    "total_green_time": 104.0,
+    "best_objective_score": 217.4
+}
